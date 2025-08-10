@@ -1,487 +1,660 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
 
-   <!--=============== FAVICON ===============-->
-   <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+      crossorigin=""
+    />
 
-   <!--=============== REMIXICONS ===============-->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="" />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-   <!--=============== CSS ===============-->
-   <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Kumar Basnet</title>
+  </head>
 
-   <title>Kumar Basnet</title>
-</head>
-
-<body>
-   <!--==================== HEADER ====================-->
-   <header class="header" id="header">
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
       <nav class="nav container">
-         <a href="#" class="nav__logo">
-            <span class="nav__logo-circle">K</span>
-            <span class="nav__logo-name">Kumar Basnet</span>
-         </a>
-         <div class="nav__menu" id="nav-menu">
-            <span class="nav__title">Menu</span>
+        <a href="#" class="nav__logo">
+          <span class="nav__logo-circle">K</span>
+          <span class="nav__logo-name">Kumar Basnet</span>
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <span class="nav__title">Menu</span>
 
-            <h3 class="nav__name">Kumar</h3>
+          <h3 class="nav__name">Kumar</h3>
 
-            <ul class="nav__list">
-               <li class="nav__item">
-                  <a href="#home" class="nav__link active-link">Home</a>
-               </li>
-               <li class="nav__item">
-                  <a href="#about" class="nav__link">About Me</a>
-               </li>
-               <li class="nav__item">
-                  <a href="#projects" class="nav__link">Projects</a>
-               </li>
-               <li class="nav__item">
-                  <a href="#contact" class="nav__link nav__link-button">Contact Me</a>
-               </li>
-            </ul>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Me</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link nav__link-button"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
 
-            <!-- Close button -->
-            <div class="nav__close" id="nav-close">
-               <i class="ri-close-line"></i>
-            </div>
-         </div>
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
 
-         <div class="nav__buttons">
-            <!-- Theme button -->
-            <i class="ri-moon-line change-theme" id="theme-button"></i>
+        <div class="nav__buttons">
+          <!-- Theme button -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
 
-            <!-- Toggle button -->
-            <div class="nav__toggle" id="nav-toggle">
-               <i class="ri-menu-4-line"></i>
-            </div>
-         </div>
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
       </nav>
-   </header>
+    </header>
 
-   <!--==================== MAIN ====================-->
-   <main class="main">
+    <!--==================== MAIN ====================-->
+    <main class="main">
       <!--==================== HOME ====================-->
       <section class="home section" id="home">
-         <div class="home__container container grid">
-            <h1 class="home__name">Kumar Basnet</h1>
-            <div class="home__perfil">
-               <div class="home__image">
-                  <img src="assets/img/home.jpeg" alt="image" class="home__img" />
-                  <div class="home__shadow"></div>
+        <div class="home__container container grid">
+          <h1 class="home__name">Kumar Basnet</h1>
+          <div class="home__perfil">
+            <div class="home__image">
+              <img src="assets/img/home.jpeg" alt="image" class="home__img" />
+              <div class="home__shadow"></div>
 
-                  <img src="assets/img/curved-arrow.svg" alt="" class="home__arrow" />
-                  <img src="assets/img/random-lines.svg" alt="" class="home__line" />
+              <img
+                src="assets/img/curved-arrow.svg"
+                alt=""
+                class="home__arrow"
+              />
+              <img
+                src="assets/img/random-lines.svg"
+                alt=""
+                class="home__line"
+              />
 
-                  <div class="geometric-box"></div>
-               </div>
-
-               <div class="home__social">
-                  <a href="https://www.instagram.com/kum_r_basnet/" target="_blank" class="home__social-link">
-                     <i class="ri-instagram-line"></i>
-                  </a>
-                  <a href="https://www.linkedin.com/in/kumar-basnet-b66ab6319/" target="_blank"
-                     class="home__social-link">
-                     <i class="ri-linkedin-box-line"></i>
-                  </a>
-                  <a href="https://github.com/kumarbasnet100" target="_blank" class="home__social-link">
-                     <i class="ri-github-line"></i>
-                  </a>
-               </div>
+              <div class="geometric-box"></div>
             </div>
-            <div class="home__info">
-               <p class="home__description">
-                  <b>Frontend Developer</b>, with knowledge in web development and
-                  design, I offer the best projects resulting in quality work.
-               </p>
-               <a href="#about" class="home__scroll">
-                  <div class="home__scroll-box">
-                     <i class="ri-arrow-down-s-line"></i>
-                  </div>
 
-                  <span class="home__scroll-text">Scroll Down</span>
-               </a>
+            <div class="home__social">
+              <a
+                href="https://www.instagram.com/kum_r_basnet/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kumar-basnet-b66ab6319/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+              <a
+                href="https://github.com/kumarbasnet100"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-github-line"></i>
+              </a>
             </div>
-         </div>
+          </div>
+          <div class="home__info">
+            <p class="home__description">
+              <b>Frontend Developer</b>, with knowledge in web development and
+              design, I offer the best projects resulting in quality work.
+            </p>
+            <a href="#about" class="home__scroll">
+              <div class="home__scroll-box">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+
+              <span class="home__scroll-text">Scroll Down</span>
+            </a>
+          </div>
+        </div>
       </section>
 
       <!--==================== ABOUT ====================-->
       <section class="about section" id="about">
-         <div class="about__container container grid">
-            <h2 class="section__title-1">
-               <span>About Me.</span>
-            </h2>
+        <div class="about__container container grid">
+          <h2 class="section__title-1">
+            <span>About Me.</span>
+          </h2>
 
-            <div class="about__perfil">
-               <div class="about__image">
-                  <img src="assets/img/about.jpeg" alt="image" class="about__img" />
-                  <div class="about__shadow"></div>
-                  <div class="geometric-box"></div>
-                  <img src="assets/img/random-lines.svg" alt="" class="about__line" />
-                  <div class="about__box"></div>
-               </div>
+          <div class="about__perfil">
+            <div class="about__image">
+              <img src="assets/img/about.jpeg" alt="image" class="about__img" />
+              <div class="about__shadow"></div>
+              <div class="geometric-box"></div>
+              <img
+                src="assets/img/random-lines.svg"
+                alt=""
+                class="about__line"
+              />
+              <div class="about__box"></div>
             </div>
+          </div>
 
-            <div class="about__info">
-               <p class="about__description">
-                  Passionate about creating <b>Web Pages</b> with
-                  <b>UI/UX User Interface</b>, I have years of experience and many
-                  clients are happy with the projects carried out.
-               </p>
+          <div class="about__info">
+            <p class="about__description">
+              Passionate about creating <b>Web Pages</b> with
+              <b>UI/UX User Interface</b>, I have years of experience and many
+              clients are happy with the projects carried out.
+            </p>
 
-               <ul class="about__list">
-                  <li class="about__item">
-                     <b>My Skills Are:</b> HTML, CSS, JavaScript, React, Next.js, Git
-                     & GitHub, Bootstrap, Tailwind & Figma.
-                  </li>
-               </ul>
+            <ul class="about__list">
+              <li class="about__item">
+                <b>My Skills Are:</b> HTML, CSS, JavaScript, React, Next.js, Git
+                & GitHub, Bootstrap, Tailwind & Figma.
+              </li>
+            </ul>
 
-               <div class="about__buttons">
-                  <a href="#contact" class="button">
-                     <i class="ri-send-plane-line"></i>Contact Me
-                  </a>
-                  <a href="https://www.linkedin.com/in/kumar-basnet-b66ab6319/" target="_blank" class="button__ghost">
-                     <i class="ri-linkedin-box-line"></i>
-                  </a>
-               </div>
+            <div class="about__buttons">
+              <a href="#contact" class="button">
+                <i class="ri-send-plane-line"></i>Contact Me
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kumar-basnet-b66ab6319/"
+                target="_blank"
+                class="button__ghost"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
       <!--==================== SERVICES ====================-->
       <section class="services section" id="services">
-         <h2 class="section__title-2">
-            <span>Services.</span>
-         </h2>
+        <h2 class="section__title-2">
+          <span>Services.</span>
+        </h2>
 
-         <div class="services__container container grid">
-            <article class="services__card">
-               <div class="services__border"></div>
-               <div class="services__content">
-                  <div class="services__icon">
-                     <div class="services__box"></div>
-                     <i class="ri-layout-4-line"></i>
-                  </div>
+        <div class="services__container container grid">
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-layout-4-line"></i>
+              </div>
 
-                  <h2 class="services__title">Web Design</h2>
-                  <p class="services__description">
-                     Beautiful and elegant designs with interfaces that are
-                     intuitive, efficient and pleasant to use for the user.
-                  </p>
-               </div>
-            </article>
-            <article class="services__card">
-               <div class="services__border"></div>
-               <div class="services__content">
-                  <div class="services__icon">
-                     <div class="services__box"></div>
-                     <i class="ri-code-box-line"></i>
-                  </div>
+              <h2 class="services__title">Web Design</h2>
+              <p class="services__description">
+                Beautiful and elegant designs with interfaces that are
+                intuitive, efficient and pleasant to use for the user.
+              </p>
+            </div>
+          </article>
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-code-box-line"></i>
+              </div>
 
-                  <h2 class="services__title">Development</h2>
-                  <p class="services__description">
-                     Custom web development tailored to your specifications, designed
-                     to provide a flawless user experience.
-                  </p>
-               </div>
-            </article>
-         </div>
+              <h2 class="services__title">Development</h2>
+              <p class="services__description">
+                Custom web development tailored to your specifications, designed
+                to provide a flawless user experience.
+              </p>
+            </div>
+          </article>
+        </div>
       </section>
 
       <!--==================== PROJECTS ====================-->
       <section class="projects section" id="projects">
-         <h2 class="section__title-1">
-            <span>Projects</span>
-         </h2>
+        <h2 class="section__title-1">
+          <span>Projects</span>
+        </h2>
 
-         <div class="projects__container container grid">
-            <article class="projects__card">
-               <div class="projects__image">
-                  <img src="assets/img/netflix_clone.jpeg" alt="image" class="projects__img">
-                  <a href="https://kumar-netflix-clone.vercel.app/" class="projects__button button">
-                     <i class="ri-arrow-right-up-line"></i>
-                  </a>
-               </div>
-               <div class="projects__content">
-                  <h3 class="projects__subtitle">Website</h3>
-                  <h2 class="projects__title">Netflix Website</h2>
+        <div class="projects__container container grid">
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/chasma_sansar.png"
+                alt="image"
+                class="projects__img"
+              />
+              <a
+                href="https://chasma-sansar-kumar.vercel.app/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Chasma Sansar</h2>
 
-                  <p class="projects__description">
-                     Developed a full-stack Netflix clone that allows users to browse, search, and view movie details using TMDB API, with authentication and data storage via Google Firebase.
-                  </p>
-               </div>
-               <div class="projects__buttons">
-                  <a href="https://github.com/kumarbasnet100/Netflix_clone" target="_blank" class="projects__link">
-                     <i class="ri-github-line"></i>View
-                  </a>
-                  <a href="https://kumar-netflix-clone.vercel.app/" target="_blank"
-                     class="projects__link">
-                     <i class="ri-dribbble-line"></i>View
-                  </a>
-               </div>
-            </article>
+              <p class="projects__description">
+                Chasma Sansar is a sleek, responsive e-commerce site for
+                eyewear. It offers smooth navigation, secure login, and a modern
+                interface. Optimized for all devices, it ensures a safe and
+                enjoyable experience.
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/kumarbasnet100/Chasma-Sansar"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://chasma-sansar-kumar.vercel.app/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
 
-            <article class="projects__card">
-               <div class="projects__image">
-                  <img src="assets/img/chat-app.png" alt="image" class="projects__img">
-                  <a href="https://real-time-chat-app-kumar.vercel.app/" class="projects__button button">
-                     <i class="ri-arrow-right-up-line"></i>
-                  </a>
-               </div>
-               <div class="projects__content">
-                  <h3 class="projects__subtitle">Web-App</h3>
-                  <h2 class="projects__title">Real-Time-Chat App</h2>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/netflix_clone.jpeg"
+                alt="image"
+                class="projects__img"
+              />
+              <a
+                href="https://kumar-netflix-clone.vercel.app/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Netflix Website</h2>
 
-                  <p class="projects__description">
-                     Built a real-time chat application with user authentication, live messaging, and media sharing, using Google Firebase for real-time database and Cloudinary for media storage.
-                  </p>
-               </div>
-               <div class="projects__buttons">
-                  <a href="https://github.com/kumarbasnet100" target="_blank" class="projects__link">
-                     <i class="ri-github-line"></i>View
-                  </a>
-                  <a href="https://real-time-chat-app-kumar.vercel.app/" target="_blank"
-                     class="projects__link">
-                     <i class="ri-dribbble-line"></i>View
-                  </a>
-               </div>
-            </article>
+              <p class="projects__description">
+                Developed a full-stack Netflix clone that allows users to
+                browse, search, and view movie details using TMDB API, with
+                authentication and data storage via Google Firebase.
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/kumarbasnet100/Netflix_clone"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://kumar-netflix-clone.vercel.app/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
 
-            <article class="projects__card">
-               <div class="projects__image">
-                  <img src="assets/img/gemini.png" alt="image" class="projects__img">
-                  <a href="https://gemini-clone-kumar.vercel.app/" class="projects__button button">
-                     <i class="ri-arrow-right-up-line"></i>
-                  </a>
-               </div>
-               <div class="projects__content">
-                  <h3 class="projects__subtitle">Website</h3>
-                  <h2 class="projects__title">Gemini Chatbot</h2>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/chat-app.png"
+                alt="image"
+                class="projects__img"
+              />
+              <a
+                href="https://real-time-chat-app-kumar.vercel.app/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Web-App</h3>
+              <h2 class="projects__title">Real-Time-Chat App</h2>
 
-                  <p class="projects__description">
-                     Built a Gemini chatbot clone using React.js, Gemini API, and Node.js, enabling users to ask questions and receive accurate AI-generated responses in real-time.
-                  </p>
-               </div>
-               <div class="projects__buttons">
-                  <a href="https://github.com/kumarbasnet100/Gemini-Clone" target="_blank" class="projects__link">
-                     <i class="ri-github-line"></i>View
-                  </a>
-                  <a href="https://gemini-clone-kumar.vercel.app/" target="_blank"
-                     class="projects__link">
-                     <i class="ri-dribbble-line"></i>View
-                  </a>
-               </div>
-            </article>
+              <p class="projects__description">
+                Built a real-time chat application with user authentication,
+                live messaging, and media sharing, using Google Firebase for
+                real-time database and Cloudinary for media storage.
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/kumarbasnet100"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://real-time-chat-app-kumar.vercel.app/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
 
-            <article class="projects__card">
-               <div class="projects__image">
-                  <img src="assets/img/rock-paper-scissor.png" alt="image" class="projects__img">
-                  <a href="https://rockpaperscissorkumar.netlify.app/" class="projects__button button">
-                     <i class="ri-arrow-right-up-line"></i>
-                  </a>
-               </div>
-               <div class="projects__content">
-                  <h3 class="projects__subtitle">Website</h3>
-                  <h2 class="projects__title">Rock-Paper-Scissor</h2>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/gemini.png"
+                alt="image"
+                class="projects__img"
+              />
+              <a
+                href="https://gemini-clone-kumar.vercel.app/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Gemini Chatbot</h2>
 
-                  <p class="projects__description">
-                     Developed a simple yet engaging game using Vanilla JS and HTML/CSS. Strengthened foundational JS skills and enhanced interactive web design concepts.
-                  </p>
-               </div>
-               <div class="projects__buttons">
-                  <a href="https://github.com/kumarbasnet100/Rock-Paper-Scissor" target="_blank" class="projects__link">
-                     <i class="ri-github-line"></i>View
-                  </a>
-                  <a href="https://rockpaperscissorkumar.netlify.app/" target="_blank"
-                     class="projects__link">
-                     <i class="ri-dribbble-line"></i>View
-                  </a>
-               </div>
-            </article>
+              <p class="projects__description">
+                Built a Gemini chatbot clone using React.js, Gemini API, and
+                Node.js, enabling users to ask questions and receive accurate
+                AI-generated responses in real-time.
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/kumarbasnet100/Gemini-Clone"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://gemini-clone-kumar.vercel.app/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
 
-            <article class="projects__card">
-               <div class="projects__image">
-                  <img src="assets/img/movie-zone.jpeg" alt="image" class="projects__img">
-                  <a href="https://moviezonekumar.netlify.app/" class="projects__button button">
-                     <i class="ri-arrow-right-up-line"></i>
-                  </a>
-               </div>
-               <div class="projects__content">
-                  <h3 class="projects__subtitle">Website</h3>
-                  <h2 class="projects__title">Movie Zone</h2>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/rock-paper-scissor.png"
+                alt="image"
+                class="projects__img"
+              />
+              <a
+                href="https://rockpaperscissorkumar.netlify.app/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Rock-Paper-Scissor</h2>
 
-                  <p class="projects__description">
-                     A React.js project uses a data.js file to store structured data, enabling dynamic content rendering by mapping the data into components for flexible and scalable UI updates.
-                  </p>
-               </div>
-               <div class="projects__buttons">
-                  <a href="https://github.com/kumarbasnet100/MovieZone" target="_blank" class="projects__link">
-                     <i class="ri-github-line"></i>View
-                  </a>
-                  <a href="https://moviezonekumar.netlify.app/" target="_blank"
-                     class="projects__link">
-                     <i class="ri-dribbble-line"></i>View
-                  </a>
-               </div>
-            </article>
+              <p class="projects__description">
+                Developed a simple yet engaging game using Vanilla JS and
+                HTML/CSS. Strengthened foundational JS skills and enhanced
+                interactive web design concepts.
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/kumarbasnet100/Rock-Paper-Scissor"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://rockpaperscissorkumar.netlify.app/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
 
-            <article class="projects__card">
-               <div class="projects__image">
-                  <img src="assets/img/food-recipe.jpeg" alt="image" class="projects__img">
-                  <a href="https://foodrecipekumar.netlify.app/" class="projects__button button">
-                     <i class="ri-arrow-right-up-line"></i>
-                  </a>
-               </div>
-               <div class="projects__content">
-                  <h3 class="projects__subtitle">Website</h3>
-                  <h2 class="projects__title">Food Recipe</h2>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/movie-zone.jpeg"
+                alt="image"
+                class="projects__img"
+              />
+              <a
+                href="https://moviezonekumar.netlify.app/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Movie Zone</h2>
 
-                  <p class="projects__description">
-                     The Food Recipe project, built with React.js and the TheMealDB API, allows users to explore a variety of recipes by fetching real-time data through dynamic and interactive React components.
-                  </p>
-               </div>
-               <div class="projects__buttons">
-                  <a href="https://github.com/kumarbasnet100/FoodRecipe" target="_blank" class="projects__link">
-                     <i class="ri-github-line"></i>View
-                  </a>
-                  <a href="https://foodrecipekumar.netlify.app/" target="_blank"
-                     class="projects__link">
-                     <i class="ri-dribbble-line"></i>View
-                  </a>
-               </div>
-            </article>
-         </div>
+              <p class="projects__description">
+                A React.js project uses a data.js file to store structured data,
+                enabling dynamic content rendering by mapping the data into
+                components for flexible and scalable UI updates.
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/kumarbasnet100/MovieZone"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://moviezonekumar.netlify.app/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+        </div>
       </section>
 
       <!--==================== CONTACT ====================-->
       <section class="contact section" id="contact">
-         <div class="contact__container grid">
-            <div class="contact__data">
-               <h2 class="section__title-2">
-                  <span>Contact Me.</span>
-               </h2>
-               <p class="contact__description-1">
-                  I will read all emails. Send me any
-                  message you want and I'll get back to you.
-               </p>
-               <p class="contact__description-2">
-                  I need your <b>Name</b> and <b>Email Address</b>, but
-                  you won't receive anything other than your reply.
-               </p>
+        <div class="contact__container grid">
+          <div class="contact__data">
+            <h2 class="section__title-2">
+              <span>Contact Me.</span>
+            </h2>
+            <p class="contact__description-1">
+              I will read all emails. Send me any message you want and I'll get
+              back to you.
+            </p>
+            <p class="contact__description-2">
+              I need your <b>Name</b> and <b>Email Address</b>, but you won't
+              receive anything other than your reply.
+            </p>
 
-               <div class="geometric-box"></div>
+            <div class="geometric-box"></div>
+          </div>
+          <div class="contact__mail">
+            <h2 class="contact__title">Send Me A Message</h2>
+
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    name="user_name"
+                    class="contact__input"
+                    id="name"
+                    required
+                    placeholder="Full Name"
+                  />
+                  <label for="name" class="contact__label">Full Name</label>
+                </div>
+
+                <div class="contact__box">
+                  <input
+                    type="email"
+                    name="user_email"
+                    class="contact__input"
+                    id="email"
+                    required
+                    placeholder="Email Address"
+                  />
+                  <label for="email" class="contact__label"
+                    >Email Address</label
+                  >
+                </div>
+              </div>
+
+              <div class="contact__box">
+                <input
+                  type="text"
+                  name="user_subject"
+                  class="contact__input"
+                  id="subject"
+                  required
+                  placeholder="Subject"
+                />
+                <label for="subject" class="contact__label">Subject</label>
+              </div>
+
+              <div class="contact__box contact__area">
+                <textarea
+                  name="user_message"
+                  id="message"
+                  class="contact__input"
+                  required
+                  placeholder="Message"
+                ></textarea>
+                <label for="message" class="contact__label">Message</label>
+              </div>
+
+              <p class="contact__message" id="contact-message"></p>
+
+              <button type="submit" class="contact__button button">
+                <i class="ri-send-plane-line"></i>Send Message
+              </button>
+            </form>
+          </div>
+          <div class="contact__social">
+            <img
+              src="assets/img/curved-arrow.svg"
+              alt=""
+              class="contact__social-arrow"
+            />
+            <div class="contact__social-data">
+              <div>
+                <p class="contact__social-description-1">Send emails or</p>
+                <p class="contact__social-description-2">
+                  Write me on my social networks
+                </p>
+              </div>
+
+              <div class="contact__social-links">
+                <a
+                  href="https://www.facebook.com/KooM.R.Xeetri/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-facebook-circle-line"></i>
+                </a>
+
+                <a
+                  href="https://www.instagram.com/kum_r_basnet/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/kumar-basnet-b66ab6319/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-linkedin-box-line"></i>
+                </a>
+              </div>
             </div>
-            <div class="contact__mail">
-               <h2 class="contact__title">
-                  Send Me A Message
-               </h2>
-
-               <form action="" class="contact__form" id="contact-form">
-                  <div class="contact__group">
-                     <div class="contact__box">
-                        <input type="text" name="user_name" class="contact__input" id="name" required
-                           placeholder="Full Name">
-                        <label for="name" class="contact__label">Full Name</label>
-                     </div>
-
-                     <div class="contact__box">
-                        <input type="email" name="user_email" class="contact__input" id="email" required
-                           placeholder="Email Address">
-                        <label for="email" class="contact__label">Email Address</label>
-                     </div>
-                  </div>
-
-                  <div class="contact__box">
-                     <input type="text" name="user_subject" class="contact__input" id="subject" required
-                        placeholder="Subject">
-                     <label for="subject" class="contact__label">Subject</label>
-                  </div>
-
-                  <div class="contact__box contact__area">
-                     <textarea name="user_message" id="message" class="contact__input" required
-                        placeholder="Message"></textarea>
-                     <label for="message" class="contact__label">Message</label>
-                  </div>
-
-                  <p class="contact__message" id="contact-message"></p>
-
-                  <button type="submit" class="contact__button button">
-                     <i class="ri-send-plane-line"></i>Send Message
-                  </button>
-               </form>
-            </div>
-            <div class="contact__social">
-               <img src="assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
-               <div class="contact__social-data">
-                  <div>
-                     <p class="contact__social-description-1">
-                        Send emails or
-                     </p>
-                     <p class="contact__social-description-2">
-                        Write me on my social networks
-                     </p>
-                  </div>
-
-                  <div class="contact__social-links">
-                     <a href="https://www.facebook.com/KooM.R.Xeetri/" target="_blank" class="contact__social-link">
-                        <i class="ri-facebook-circle-line"></i>
-                     </a>
-
-                     <a href="https://www.instagram.com/kum_r_basnet/" target="_blank" class="contact__social-link">
-                        <i class="ri-instagram-line"></i>
-                     </a>
-
-                     <a href="https://www.linkedin.com/in/kumar-basnet-b66ab6319/" target="_blank"
-                        class="contact__social-link">
-                        <i class="ri-linkedin-box-line"></i>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </div>
+          </div>
+        </div>
       </section>
-   </main>
+    </main>
 
-   <!--==================== FOOTER ====================-->
-   <footer class="footer">
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
       <div class="footer__container container grid">
-         <ul class="footer__links">
-            <li>
-               <a href="#about" class="footer__link">About</a>
-            </li>
+        <ul class="footer__links">
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
 
-            <li>
-               <a href="#services" class="footer__link">Services</a>
-            </li>
+          <li>
+            <a href="#services" class="footer__link">Services</a>
+          </li>
 
-            <li>
-               <a href="#projects" class="footer__link">Projects</a>
-            </li>
-         </ul>
+          <li>
+            <a href="#projects" class="footer__link">Projects</a>
+          </li>
+        </ul>
 
-         <span class="footer__copy">
-            &#169; All Rights Reserved By
-            <a href="#">KumarBasnet.</a>
-         </span>
+        <span class="footer__copy">
+          &#169; All Rights Reserved By
+          <a href="#">KumarBasnet.</a>
+        </span>
       </div>
-   </footer>
+    </footer>
 
-   <!--========== SCROLL UP ==========-->
-       <a href="#" class="scrollup" id="scroll-up">
-         <i class="ri-arrow-up-s-line"></i>
-       </a>
-   <!--=============== SCROLLREVEAL ===============-->
-   <script src="assets/js/scrollreveal.min.js"></script>
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line"></i>
+    </a>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
 
-   <!--=============== EMAIL JS ===============-->
-   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-   </script>
-   <!--=============== MAIN JS ===============-->
-   <script src="assets/js/main.js"></script>
-</body>
-
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
